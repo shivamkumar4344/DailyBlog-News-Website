@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News App</title>
+    <title>Login</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -16,7 +16,7 @@
             </a>
             <div class="nav-links">
                     <ul class="flex">
-                    <li class="hover-link nav-item" onclick="reload()">Home</li>
+                    <li class="hover-link nav-item" onclick="reload()"><a href="index.html">Home</a></li>
                     <li class="hover-link nav-item"><a href="about.html" target="_self">About Us</a></li>
                     <li class="hover-link nav-item" id="sports" onclick="onNavItemClick('sports')">Sports</li>
                     <li class="hover-link nav-item" id="finance" onclick="onNavItemClick('finance')">Finance</li>
@@ -32,27 +32,8 @@
             </div>
         </div>
     </nav>
-
-    <main>
-        <div class="cards-container flex" id="cards-container">
-            
-        </div>
-    </main>
-    <template id="template-news-card">
-        <div class="card">
-            <div class="card-header">
-               <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img"> 
-            </div>
-            <div class="card-content">
-                <h3 id="news-title">This is the title</h3>
-                <h6 class="news-source" id="news-source">ENd Gadget 01/04/24</h6>
-                <p class="news-desc" id="news-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad molestiae quisquam excepturi inventore quasi neque dolores accusantium, sequi iste? Vitae!</p>
-            </div>
-        </div>
-    </template>
     <footer style="text-align:center;">
         <p class="copyrights">&copy; 2024 Daily Blog. All rights reserved.</p>
       </footer>
-    <script src="scripts.js"></script>
 </body>
 </html>

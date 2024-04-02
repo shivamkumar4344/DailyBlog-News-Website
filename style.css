@@ -52,6 +52,7 @@ nav{
     z-index: 99;
     left: 0;
     right: 0;
+    
 }
 
 .main-nav{
@@ -73,12 +74,16 @@ nav{
 }
 
 .hover-link:hover{
-    color: var(--accent-color);
     transform: translateY(-3px);
 }
 .hover-link:active{
     color:red;
 }
+
+.nav-item.active{
+    color:var(--accent-color);
+}
+
 .search-bar{
     height: 32px;
     gap: 10px;
@@ -148,5 +153,27 @@ main{
 
 .news-source{
     margin: block 12px;
+}
+
+
+a{
+    color: var(--primary-text-color);
+}
+
+#about-para
+{
+    margin-top:150px;
+    font-size: larger;
+
+}
+
+#about-id{
+    margin-left:5%;
+    margin-right: 5%;
+}
+
+.copyrights{
+    color: var(--accent-color);
+    font-style: "Poppins",sans-serif;
 }
 
