@@ -62,16 +62,19 @@ nav{
 .website-logo img{
     width: 120px;
 }
+
 .nav-links ul{
     gap:26px;
 }
 
 .hover-link{
     cursor: pointer;
+    transition: all ease 0.3s;
 }
 
 .hover-link:hover{
     color: var(--accent-color);
+    transform: translateY(-3px);
 }
 .hover-link:active{
     color:red;
