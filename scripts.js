@@ -2,6 +2,7 @@ const API_KEY = "881de863599547c283c0e4c7c0f2c54a";
 
 const url = "https://newsapi.org/v2/everything?q=";
 
+//Index page
 window.addEventListener('load',()=>fetchNews("India"));
 
 function reload()
@@ -82,3 +83,15 @@ serachButton.addEventListener("click", () =>{
     currentSelectedNav = null;
 
 })
+
+
+//Login Form
+function validate()
+{
+    const pass = document.getElementById("password");
+    if(pass.length<8)
+    {
+        window.alert("invalid");
+        return;
+    }
+}
