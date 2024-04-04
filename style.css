@@ -16,6 +16,7 @@
 body{
     font-family:"Poppins",sans-serif ;
     color: var(--primary-text-color);
+    flex-wrap: wrap;
 }
 
 p{
@@ -45,7 +46,7 @@ ul {
 }
 
 nav{
-    background-color: #f3faff;
+    background-color: #00d5ff;
     box-shadow:0 0 4px #bbd0e2;
     position: fixed;
     top: 0;
@@ -120,11 +121,11 @@ main{
     flex-wrap: wrap;
     row-gap: 20px;
     align-items: start;
-    margin-left: 70px;
+    margin-left: 80px;
 }
 
 .card{
-    width: 360px;
+    width: 450px;
     min-height: 400px;
     border-radius:4px ;
     box-shadow: 0 0 4px #d4ecff;
