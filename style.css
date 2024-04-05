@@ -223,3 +223,23 @@ hr{
 .user-icon{
     width: 60px;
 }
+
+@media(min-width:800px){
+    .main-nav{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width:400px) and (max-width:800px)
+{
+    .main-nav{
+        width: 80%;      
+    };
+}
+
+@media(max-width:400px){
+    .main-nav{
+        width: 100%;
+    }
+}
