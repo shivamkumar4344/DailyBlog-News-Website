@@ -96,3 +96,19 @@ function validate()
         return;
     }
 }
+
+const password_signIn = document.getElementById("password-signIn");
+const confirmpassword_signIn = document.getElementById("confirmpassword-signIn");
+
+const signupBtn = document.getElementById("signupBtn");
+
+signupBtn.addEventListener("click",()=>{
+        if(password_signIn.value !== confirmpassword_signIn.value)
+        {
+            window.alert("Passwords are not same!!");
+            return false;
+        }
+        else{
+            return true;
+        }
+});

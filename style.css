@@ -181,7 +181,7 @@ a{
 .sign-up-form{
     width: 400px;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
-    background: #fff;
+    /* background: #fff; */
     padding:20px;
     margin: 8% auto 0;
     text-align: center;
@@ -242,4 +242,50 @@ hr{
     .main-nav{
         width: 100%;
     }
+}
+
+
+#signIn-Form{
+    margin-left: 32%;
+    width: 40%;
+    justify-content: center;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    font-family: sans-serif;
+}
+
+#or-signIn{
+    margin-top: 20px;
+}
+
+#username-signIn{
+    width: 45%;
+    margin-left: 27%;
+    
+}
+
+#email-signIn
+{
+    width: 45%;
+    margin-left: 27%;
+}
+
+#password-signIn{
+    width: 45%;
+    margin-left: 27%;   
+}
+#confirmpassword-signIn{
+    width: 45%;
+    margin-left: 27%;
+}
+
+.sign-in-icon{
+    text-align: center;
+    height: 100px;
+    width:100px;
+    margin-left: 40%;
+    margin-top: 40px;
+}
+
+#signWithGoogle{
+    margin-bottom: 20px;
 }
