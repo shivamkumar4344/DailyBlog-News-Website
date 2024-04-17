@@ -97,18 +97,19 @@ function validate()
     }
 }
 
-const password_signIn = document.getElementById("password-signIn");
-const confirmpassword_signIn = document.getElementById("confirmpassword-signIn");
 
-const signupBtn = document.getElementById("signupBtn");
+//dark-mode
+var icon = document.getElementById("icon");
 
-signupBtn.addEventListener("click",()=>{
-        if(password_signIn.value !== confirmpassword_signIn.value)
-        {
-            window.alert("Passwords are not same!!");
-            return false;
-        }
-        else{
-            return true;
-        }
-});
+icon.onclick = function() {
+    document.body.classList.toggle("dark-mode");
+    
+    if (document.body.classList.contains("dark-mode")) {
+        icon.src = "extras/sun.png";
+    } else {
+        icon.src = "extras/moon.png";
+    }
+}
+
+
+

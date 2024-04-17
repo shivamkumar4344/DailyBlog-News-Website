@@ -180,7 +180,7 @@ a{
 
 .sign-up-form{
     width: 400px;
-    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 0 50px 0 rgba(0,0,0,0.3);
     /* background: #fff; */
     padding:20px;
     margin: 8% auto 0;
@@ -289,3 +289,41 @@ hr{
 #signWithGoogle{
     margin-bottom: 20px;
 }
+
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #cccccc;
+}
+
+
+body.dark-mode {
+    background-color: #000106;
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link.dark-mode {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link.dark-mode:hover {
+    color: #cccccc;
+}
+
+
