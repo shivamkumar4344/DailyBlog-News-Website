@@ -98,18 +98,18 @@ function validate()
 }
 
 
-//dark-mode
-var icon = document.getElementById("icon");
-
-icon.onclick = function() {
-    document.body.classList.toggle("dark-mode");
-    
-    if (document.body.classList.contains("dark-mode")) {
-        icon.src = "extras/sun.png";
-    } else {
-        icon.src = "extras/moon.png";
-    }
-}
+//Jquery for dark-mode
+$(document).ready(function() {
+    $("#icon").click(function() {
+      $("body").toggleClass("dark-mode");
+      if ($("body").hasClass("dark-mode")) {
+        $("#icon").attr("src", "extras/sun.png");
+      } else {
+        $("#icon").attr("src", "extras/moon.png");
+      }
+    });
+  });
+  
 
 
 
