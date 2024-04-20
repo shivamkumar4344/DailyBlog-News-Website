@@ -27,6 +27,7 @@ p{
 
 a{
     text-decoration: none;
+    color: var(--primary-text-color);
 
 }
 
@@ -76,6 +77,7 @@ nav{
 
 .hover-link:hover{
     transform: translateY(-3px);
+    color: var(--secondary-text-color);
 }
 .hover-link:active{
     color:red;
@@ -156,10 +158,6 @@ main{
     margin: block 12px;
 }
 
-
-a{
-    color: var(--primary-text-color);
-}
 
 #about-para
 {
@@ -326,4 +324,51 @@ body.dark-mode {
     color: #cccccc;
 }
 
+.footer{
+    background-color:var(--primary-text-color);
+    color: white;
+}
 
+.footer .container ul{
+    list-style: none;
+    padding-left: 0;
+    font-size: large;
+}
+
+.footer .row
+.f-head{
+    font-size: large;
+    margin-bottom: 1em;
+    width: fit-content;
+    border-bottom: 2px solid #fff;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon i{
+    margin: 2px 5px;
+    cursor: pointer;
+}
+
+.last{
+    font-size: 12px;
+    padding: 0;
+    gap: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last .col-4 .col{
+    margin: 0 1px;
+    display: inline;
+    padding-right: 5px;
+}
+
+#cond{
+    color:white;
+    padding-left: 5px;
+}

@@ -43,10 +43,10 @@
     <div class="sign-up-form">
         <img src="/extras/userIcon.png" alt="user-icon" class="user-icon">
         <h1>Login Now</h1>
-        <form onsubmit="return validate()">
+        <form onsubmit="return validate()" action="index.html">
             <input type="email" name="input-box" id="email" placeholder="Your Email" class="input-box" required>
             <input type="password" name="input-box" id="password" placeholder="Your Password" class="input-box" required> 
-            <p><span><input type="checkbox" required></span>I agree to the terms of services</p>
+            <p><span><input type="checkbox" required></span><span id="cond">I agree to the terms of services.</span></p>
             <button class="btn btn-primary">Login</button>
             <hr>
             <p class="or">OR</p>
