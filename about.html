@@ -32,7 +32,21 @@
                 <button id="login-button" type="button" class="btn btn-primary"><a href="login.html">Login</a></button>
             </div>
         </div>
+    </div>
     </nav>
+    <main id="imageSlidesMain">
+        <h1 style="text-align:center;">Our Gallery</h1>
+        <img src="extras/image1.jpg" alt="image1" class="slide">
+        <img src="extras/image2.png" alt="image2" class="slide">
+
+        <img src="extras/image3.png" alt="image3" class="slide">
+
+        <img src="extras/image4.png"alt="iamge4" class="slide">
+    </main>
+    <div id="imageSlide">
+        <button class="btn btn-primary" onclick="goPrev()" >Prev</button>
+        <button onclick="goNext()" class="btn btn-primary">Next</button>
+    </div>
     <div id="about-id">
         <p id="about-para">
             <h1 style="text-align: center;">About Our Channel</h1>
@@ -132,7 +146,7 @@ But what truly sets us apart? It's the dedication we share with our readers. We 
         </div>
 
     </section>
-      
+      <script src="imageSlider.js"></script>
 
 </body>
 </html>
