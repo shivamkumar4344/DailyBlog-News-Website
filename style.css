@@ -362,7 +362,7 @@ body.dark-mode {
     height: 400px;
     margin:auto;
     margin-top: 150px;
-    box-shadow:0px 0px 3px white;
+    box-shadow:0 0 50px 0 rgba(0,0,0,0.3);
     position: relative;
     overflow: hidden;
 }
