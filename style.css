@@ -306,6 +306,10 @@ body.dark-mode {
     color: #cccccc;
 }
 
+body.dark-mode .nav-item a {
+    color: #ffffff; 
+}
+
 
 .footer{
     background-color:var(--primary-text-color);
